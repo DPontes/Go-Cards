@@ -6,6 +6,23 @@ import "fmt"
 // which is a slice of strings
 type deck []string
 
+func newDeck() deck {
+  cards := deck{}
+
+  cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
+  cardValues := []string{"Ace", "Two", "Three", "Four"}
+
+  // for variables created but not used, use '_'
+  // so that there won't be any compilation warnings
+  for _, suit := range cardSuits {
+    for _, value := range cardValues {
+      cards = append(cards, value+" of "+suit)
+    }
+  }
+
+  return cards
+}
+
 /*
   Receiver function
   The variable 'd' is the same as
