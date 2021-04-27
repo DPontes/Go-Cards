@@ -25,14 +25,15 @@ The application returns a randomized list of strings corresponding to cards (lim
 13 Four of Diamonds
 14 Three of Hearts
 15 Ace of Hearts
+```
 
 ## How-To
 
 ### Run the Application
 
 ```bash
-go build main.go deck.go
-./main
+  go build main.go deck.go
+  ./main
 ```
 
 ### Test
