@@ -1,3 +1,3 @@
 # Cards Game in Golang
 
-This code is a project from the Udemy course "Go: The Complete Developer's Guide"
+The code is for the Cards project, first project from the Udemy course [Go: The Complete Developer's Guide](https://www.udemy.com/course/go-the-complete-developers-guide/)
